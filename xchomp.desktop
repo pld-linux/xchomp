@@ -1,0 +1,5 @@
+Name=xchomp
+Comment=A Pac-Man style game for the X Window System.
+Exec=xchomp
+Terminal=0
+Type=Application

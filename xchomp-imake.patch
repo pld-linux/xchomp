@@ -1,0 +1,15 @@
+--- xchomp/Imakefile.orig	Mon Feb 10 13:33:48 1992
++++ xchomp/Imakefile	Wed Jul  4 21:38:18 2001
+@@ -4,9 +4,9 @@
+ SRCS= contact.c demo.c drivers.c main.c maze.c props.c resources.c status.c
+ OBJS= contact.o demo.o drivers.o main.o maze.o props.o resources.o status.o
+ 
+-INSTALLFLAGS = $(INSTKMEMFLAGS)
++CPPFLAGS = -fwritable-strings
+ 
+-all: xchomp
++INSTALLFLAGS = $(INSTKMEMFLAGS)
+ 
+-SingleProgramTarget(xchomp,$(OBJS),,$(LOCAL_LIBRARIES))
++ComplexProgramTargetNoMan(xchomp)
+ 
