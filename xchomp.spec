@@ -9,7 +9,7 @@ Name:		xchomp
 Version:	1.0
 Release:	18
 License:	distributable
-Group:		Applications/Games
+Group:		X11/Applications/Games
 Source0:	ftp://ibiblio.org/pub/Linux/games/arcade/tetris/%{name}-linux.tar.z
 # Source0-md5:	f1556376445f2f38e61dc1f774e0d155
 Source1:	%{name}.desktop
