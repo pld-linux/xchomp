@@ -7,7 +7,7 @@ Summary(pt_BR):Jogo tipo PacMan para X
 Summary(tr):	PacMan tarzý bilgisayar oyunu
 Name:		xchomp
 Version:	1.0
-Release:	16
+Release:	17
 License:	distributable
 Group:		Applications/Games
 Group(de):	Applikationen/Spiele
