@@ -3,7 +3,7 @@ Summary(de):	Spiel im PacMan-Stil für X
 Summary(es):	Juego tipo PacMan para X
 Summary(fr):	Jeu de type PacMan pour X
 Summary(pl):	Gra w stylu Pac-Mana pod X
-Summary(pt_BR):Jogo tipo PacMan para X
+Summary(pt_BR):	Jogo tipo PacMan para X
 Summary(tr):	PacMan tarzý bilgisayar oyunu
 Name:		xchomp
 Version:	1.0
