@@ -1,12 +1,12 @@
 [Desktop Entry]
-Name=xchomp
+Name=Xchomp
 Comment=A Pac-Man style game for the X Window System
-Comment[de]=Spiel im PacMan-Stil für X
-Comment[es]=Juego tipo PacMan para X
-Comment[fr]=Jeu de type PacMan pour X
-Comment[pl]=Gra w stylu Pac-Mana pod X
-Comment[pt]=Jogo tipo PacMan para X
-Comment[pt_BR]=Jogo tipo PacMan para X
+Comment[de]=Spiel im PacMan-Stil für X11
+Comment[es]=Juego tipo PacMan para X11
+Comment[fr]=Jeu de type PacMan pour X11
+Comment[pl]=Gra w stylu Pac-Mana pod X11
+Comment[pt]=Jogo tipo PacMan para X11
+Comment[pt_BR]=Jogo tipo PacMan para X11
 Comment[tr]=PacMan tarzı bilgisayar oyunu
 Icon=xchomp.png
 Exec=xchomp
