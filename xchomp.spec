@@ -10,8 +10,6 @@ Version:	1.0
 Release:	17
 License:	distributable
 Group:		Applications/Games
-Group(de):	Applikationen/Spiele
-Group(pl):	Aplikacje/Gry
 Source0:	ftp://ibiblio.org/pub/Linux/games/arcade/tetris/%{name}-linux.tar.z
 Source1:	%{name}.desktop
 Source2:	%{name}.png
