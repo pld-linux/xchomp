@@ -7,7 +7,7 @@ Summary(pt_BR):	Jogo tipo PacMan para X
 Summary(tr):	PacMan tarzý bilgisayar oyunu
 Name:		xchomp
 Version:	1.0
-Release:	18
+Release:	19
 License:	distributable
 Group:		X11/Applications/Games
 Source0:	ftp://ibiblio.org/pub/Linux/games/arcade/tetris/%{name}-linux.tar.z
@@ -15,10 +15,9 @@ Source0:	ftp://ibiblio.org/pub/Linux/games/arcade/tetris/%{name}-linux.tar.z
 Source1:	%{name}.desktop
 Source2:	%{name}.png
 Patch0:		%{name}-imake.patch
+URL:		http://www.chez.com/vidalc/xchomp/xchomp.html
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define		_prefix		/usr/X11R6
 
 %description
 xchomp is an X Window System based game like Pac-Man.
@@ -53,16 +52,20 @@ xchomp, PacMan'in (dobiþko) Linux'a uyarlanmýþ hali.
 
 %build
 xmkmf
-%{__make} CDEBUGFLAGS="%{rpmcflags} -DFRAME_DELAY=2000"
+%{__make} \
+	CC="%{__cc}" \
+	CDEBUGFLAGS="%{rpmcflags} -DFRAME_DELAY=2000"
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_applnkdir}/Games/Arcade,%{_pixmapsdir}}
+install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_pixmapsdir}}
 
-install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Games/Arcade
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT \
+	BINDIR=%{_bindir}
+
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
-
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -71,5 +74,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README
 %attr(755,root,root) %{_bindir}/*
-%{_applnkdir}/Games/Arcade/*
-%{_pixmapsdir}/*
+%{_desktopdir}/*.desktop
+%{_pixmapsdir}/*.png
