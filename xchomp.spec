@@ -48,7 +48,7 @@ xchomp, PacMan'in (dobiþko) Linux'a uyarlanmýþ hali.
 
 %prep
 %setup -q -n xchomp
-%patch -p1
+%patch0 -p1
 
 %build
 xmkmf
