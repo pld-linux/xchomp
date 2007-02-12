@@ -1,10 +1,10 @@
 Summary:	A Pac-Man style game for the X Window System
-Summary(de):	Spiel im PacMan-Stil für X
-Summary(es):	Juego tipo PacMan para X
-Summary(fr):	Jeu de type PacMan pour X
-Summary(pl):	Gra w stylu Pac-Mana pod X
-Summary(pt_BR):	Jogo tipo PacMan para X
-Summary(tr):	PacMan tarzý bilgisayar oyunu
+Summary(de.UTF-8):   Spiel im PacMan-Stil fÃ¼r X
+Summary(es.UTF-8):   Juego tipo PacMan para X
+Summary(fr.UTF-8):   Jeu de type PacMan pour X
+Summary(pl.UTF-8):   Gra w stylu Pac-Mana pod X
+Summary(pt_BR.UTF-8):   Jogo tipo PacMan para X
+Summary(tr.UTF-8):   PacMan tarzÄ± bilgisayar oyunu
 Name:		xchomp
 Version:	1.0
 Release:	19
@@ -22,29 +22,29 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xchomp is an X Window System based game like Pac-Man.
 
-%description -l de
+%description -l de.UTF-8
 Mit xchomp kommt ein Arcade-Klassiker auf Ihren Bildschirm, hat
-Ähnlichkeiten mit PacMan. Nicht so umfangreich wie das Original, macht
-aber trotzdem noch viel Spaß!
+Ã„hnlichkeiten mit PacMan. Nicht so umfangreich wie das Original, macht
+aber trotzdem noch viel SpaÃŸ!
 
-%description -l es
-El clásico PacMan llega a su pantalla con xchomp. No tan extenso como
-el juego original, pero aún ¡muy genial!
+%description -l es.UTF-8
+El clÃ¡sico PacMan llega a su pantalla con xchomp. No tan extenso como
+el juego original, pero aÃºn Â¡muy genial!
 
-%description -l fr
+%description -l fr.UTF-8
 Le classique du jeu d'action sur arcade arrive sur votre ecran avec
 xchomp, le clone du jeu PacMan.Il n'est certes pas aussi complet que
 l'original, mais vous promet tout de meme de bon moments.
 
-%description -l pl
-xchomp jest gr± podobn± do Pac-Mana pod X Window System.
+%description -l pl.UTF-8
+xchomp jest grÄ… podobnÄ… do Pac-Mana pod X Window System.
 
-%description -l pt_BR
-O clássico PacMan chega a sua tela com xchomp. Não tão extenso quanto
+%description -l pt_BR.UTF-8
+O clÃ¡ssico PacMan chega a sua tela com xchomp. NÃ£o tÃ£o extenso quanto
 o jogo original, mas ainda muito legal!
 
-%description -l tr
-xchomp, PacMan'in (dobiþko) Linux'a uyarlanmýþ hali.
+%description -l tr.UTF-8
+xchomp, PacMan'in (dobiÅŸko) Linux'a uyarlanmÄ±ÅŸ hali.
 
 %prep
 %setup -q -n xchomp
