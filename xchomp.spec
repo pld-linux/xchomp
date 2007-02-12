@@ -1,10 +1,10 @@
 Summary:	A Pac-Man style game for the X Window System
-Summary(de.UTF-8):   Spiel im PacMan-Stil für X
-Summary(es.UTF-8):   Juego tipo PacMan para X
-Summary(fr.UTF-8):   Jeu de type PacMan pour X
-Summary(pl.UTF-8):   Gra w stylu Pac-Mana pod X
-Summary(pt_BR.UTF-8):   Jogo tipo PacMan para X
-Summary(tr.UTF-8):   PacMan tarzı bilgisayar oyunu
+Summary(de.UTF-8):	Spiel im PacMan-Stil für X
+Summary(es.UTF-8):	Juego tipo PacMan para X
+Summary(fr.UTF-8):	Jeu de type PacMan pour X
+Summary(pl.UTF-8):	Gra w stylu Pac-Mana pod X
+Summary(pt_BR.UTF-8):	Jogo tipo PacMan para X
+Summary(tr.UTF-8):	PacMan tarzı bilgisayar oyunu
 Name:		xchomp
 Version:	1.0
 Release:	19
